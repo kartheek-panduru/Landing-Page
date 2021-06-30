@@ -50,29 +50,29 @@ p{
 }
 
 body{
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: Nunito Sans;
+    font-size: 10px;
     color:rgb(41, 34, 34);
     font-weight:lighter;
-    line-height: 2.1;
+    line-height: 2.0;
 }
 
 #showcase{
-    background-image: url(background.jpg);
+    background-image: url(ux-is-not-ui.png);
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 83vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .logo{
-    text-align: center;
-    border: rgb(41, 34, 34) 1px solid;
-    border-radius: 100%;
-    height: 3em;
-    width: 3em;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px ;
+    height: 2em;
+    width: 2em;
 }
 
 .button{
@@ -83,15 +83,23 @@ body{
     background-color:lightgrey;
     padding: 3px 23px;
     border-radius: 5px;
+    position: relative;
+    text-align: center;
 }
 
 .welcome{
+    position: relative;
+    text-align: center;
     font-size: 40px;
 }
 
 #section-a{
-    padding: 20px;
-    background:rgb(201, 233, 217);
+    padding: 15px;
+    background: #5cdcf0;
+}
+h2 {
+    text-align: center;
+    font-weight: bolder;
 }
 
 #section-c{
@@ -100,14 +108,14 @@ body{
 }
 
 #section-c div{
-    padding:20px;
+    padding:15px;
 }
 
 #section-c .box1{
-background-color:rgb(209, 44, 80);
+background-color:rgb(255 153 0);
 max-width: 50%;
 }
 #section-c .box2{
-    background-color: rgb(35, 169, 187);
+    background-color: rgb(12 185 158);
     max-width: 50%;
 }
