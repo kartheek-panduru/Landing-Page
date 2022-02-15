@@ -60,7 +60,8 @@ body{
 #showcase{
     background-image: url(ux-is-not-ui.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 83vh;
     display: flex;
     flex-direction: column;
@@ -112,10 +113,12 @@ h2 {
 }
 
 #section-c .box1{
-background-color:rgb(255 153 0);
-max-width: 50%;
+    background-color:rgb(255 153 0);
+    width: 50%;
+    float:left;
 }
 #section-c .box2{
     background-color: rgb(12 185 158);
-    max-width: 50%;
+    width: 50%;
+    float:right;
 }
